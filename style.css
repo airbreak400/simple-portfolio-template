@@ -271,12 +271,6 @@ a:visited {
 }
 
 a:hover {
-  color: black;
   font-weight: normal;
   text-decoration: underline black;
-}
-
-a:active {
-  background-color: black;
-  font-style: italic;
 }
