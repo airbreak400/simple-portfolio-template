@@ -21,7 +21,6 @@
 }
 
 #container {
-  width: 600px;
   height: 93px;
 }
 
@@ -64,10 +63,12 @@
 .name {
   font-weight: 400;
   font-size: 20px;
+  margin-top: 5px;
 }
 
 .description {
   color: rgb(85, 85, 85);
+  font-size: 14px;
 }
 
 .website {
@@ -115,10 +116,68 @@
   font-style: normal;
   text-align: left;
   line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .dexterinfo {
   color: rgb(85, 85, 85);
   font-size: 14px;
   line-height: 1.4;
+}
+
+.maincontwork {
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.yearexperience {
+  flex-direction: row;
+  display: flex;
+  gap: 50px;
+}
+
+.worksection {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+.workyearsgap {
+  display: flex;
+  gap: 0px;
+}
+
+.workyears {
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+}
+
+.city {
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+}
+
+.between-city {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a::link {
+  text-decoration: none;
+}
+
+.contwork {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
