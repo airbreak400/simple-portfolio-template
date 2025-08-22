@@ -39,7 +39,6 @@
 
 header {
   display: flex;
-  align-items: flex-start;
   flex-shrink: 0;
   display: block;
 }
