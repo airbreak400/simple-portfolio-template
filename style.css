@@ -142,6 +142,18 @@ header {
   gap: 50px;
 }
 
+.yearexperience1 {
+  flex-direction: row;
+  display: flex;
+  gap: 100px;
+}
+
+.yearexperience2 {
+  flex-direction: row;
+  display: flex;
+  gap: 34px;
+}
+
 .worksection {
   display: flex;
   justify-content: flex-start;
@@ -157,6 +169,13 @@ header {
 .workyears {
   color: rgb(109, 109, 109);
   font-size: 14px;
+}
+
+.workyears1 {
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+  display: flex;
+  width: 100px;
 }
 
 .city {
@@ -196,4 +215,9 @@ a::link {
 
 .picturecity {
   margin-bottom: 25px;
+}
+
+.link-footer {
+  display: flex;
+  width: 100px;
 }
