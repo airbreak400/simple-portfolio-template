@@ -221,3 +221,40 @@ a::link {
   display: flex;
   width: 100px;
 }
+
+.general-post {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid rgba(109, 108, 108, 0.315);
+  border-radius: 8px;
+  width: 470px;
+}
+
+.avatar-post {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.name-article {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.description-article {
+  color: rgb(109, 109, 109);
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.city-bottom {
+  margin-bottom: 25px;
+}
+
+.margin1 {
+  margin-bottom: 35px;
+}
