@@ -21,6 +21,9 @@
 }
 
 #container {
+  align-items: flex-start;
+  display: flex;
+  width: 600px;
   height: 93px;
 }
 
@@ -34,7 +37,7 @@
   padding: 82px 62px;
 }
 
-#main-header {
+header {
   display: flex;
   align-items: flex-start;
   flex-shrink: 0;
@@ -45,6 +48,7 @@
   display: flex;
   /* align-items: flex-start; */
   gap: 10px;
+  width: 600px;
 }
 
 .info {
