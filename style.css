@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(
+    --default-font-family,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji"
+  );
+}
+
+.body {
+  margin: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+#container {
+  width: 600px;
+  height: 93px;
+}
+
+.flexcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 55px;
+  padding: 82px 62px;
+}
+
+#main-header {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  display: block;
+}
+
+.user {
+  display: flex;
+  /* align-items: flex-start; */
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.description {
+  color: rgb(85, 85, 85);
+}
+
+.website {
+  display: flex;
+  justify-content: center;
+  color: rgb(85, 85, 85);
+  background-color: rgb(246, 246, 246);
+  border-radius: 12px;
+  padding: 5px 10px 6px;
+  font-size: 12px;
+  font-weight: 400;
+  width: 120px;
+}
+
+.container--2 {
+  width: 600px;
+  gap: 40px;
+}
+
+.container--3 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 0px 0px 0.6px;
+}
+
+.aboutinfo {
+  align-items: center;
+}
+
+.dexterinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.abouttext {
+  color: rgb(17, 17, 17);
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.dexterinfo {
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+  line-height: 1.4;
+}
